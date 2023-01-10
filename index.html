@@ -175,14 +175,14 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">Contacts</h2>
                     <div class="col-12">
-                        <form action="" name="contact" class="contact-form" id="contact-form">
+                        <form action="" name="contact" data-netlify="true" class="contact-form" id="contact-form">
                             <div class="row">
-                                <div class="col-12 col-md-6"><input type="text"></div>
-                                <div class="col-12 col-md-6"><input type="text"></div>
-                                <div class="col-12 col-md-6"><input type="email"></div>
-                                <div class="col-12 col-md-6"><textarea name="" id="" cols="30" rows="10"></textarea></div>
+                                <div class="col-12 col-md-6"><input type="text" name="name"></div>
+                                <div class="col-12 col-md-6"><input type="email" name="email"></div>
+                                <div class="col-12 col-md-6"><input type="text" name="subject"></div>
+                                <div class="col-12 col-md-6"><textarea name="message" id="" cols="30" rows="10"></textarea></div>
                                 <div class="col-12 col-md-6">
-                                    <button class="btn button-main button-scheme" id="contact-submit"></button>
+                                    <button class="btn button-main button-scheme" id="contact-submit" type="submit">Send Message</button>
                                 </div>
                             </div>
                         </form>
